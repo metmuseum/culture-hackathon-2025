@@ -17,10 +17,6 @@ export function App() {
   return (
     <div className="app-container">
       <SanityApp config={sanityConfigs} fallback={<div>Loading...</div>}>
-        {/* add your own components here! */}
-        {/* <ExampleComponent /> */}
-        {/* <div >hello world</div> */}
-        {/* <ArtworkList /> */}
         <iframe
           style={{backgroundColor: 'black', width: '100vw', height: '100vh'}}
           src="https://doomonline1.vercel.app/dos.html"
@@ -31,9 +27,3 @@ export function App() {
 }
 
 export default App
-
-// <script src="%PUBLIC_URL%/js-dos/js-dos.js"></script>
-//  <link rel="stylesheet" href="%PUBLIC_URL%/js-dos/js-dos.css">
-//  <script>
-//     emulators.pathPrefix = "%PUBLIC_URL%/js-dos/";
-//  </script>
