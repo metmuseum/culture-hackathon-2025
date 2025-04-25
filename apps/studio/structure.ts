@@ -22,6 +22,8 @@ export const structure: StructureResolver = (S) => {
         ...filterItems(personItems),
         S.divider(),
         ...filterItems(contextItems),
+        S.divider(),
+        ...filterItems(['question']),
       ])
   )
 }

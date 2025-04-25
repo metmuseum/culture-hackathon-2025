@@ -2,7 +2,7 @@ import {type SanityConfig} from '@sanity/sdk'
 import {SanityApp} from '@sanity/sdk-react'
 import {ExampleComponent} from './ExampleComponent'
 import './App.css'
-import {ArtworkList} from './ArtworkList'
+import { QuestionList } from './QuestionList'
 
 export function App() {
   // apps can access many different projects or other sources of data
@@ -18,7 +18,7 @@ export function App() {
       <SanityApp config={sanityConfigs} fallback={<div>Loading...</div>}>
         {/* add your own components here! */}
         <ExampleComponent />
-        <ArtworkList />
+        <QuestionList/>
       </SanityApp>
     </div>
   )

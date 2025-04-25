@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+.question-wrapper {
+	background-color: #eee;
+	padding: 8px;
+	border-radius: 4px;
+	display: flex;
+	gap: 16px;
+	flex-direction: column;
+}
+
+.question {
+	font-size: 24px;
+}
+
+.question,
+.answer {
+	display: flex;
+	gap: 12px;
+	
+}
+
+.answer input {
+	background-color: #bbb;
+	border: 0;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.label {
+	font-weight: 900;
+	font-size: 20px;
+}
