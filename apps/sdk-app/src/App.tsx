@@ -18,7 +18,7 @@ export function App() {
     <div className="app-container">
       <SanityApp config={sanityConfigs} fallback={<div>Loading...</div>}>
         <iframe
-          style={{backgroundColor: 'black', width: '100vw', height: '100vh'}}
+          style={{backgroundColor: 'black', width: '100%', height: '720px'}}
           src="https://doomonline1.vercel.app/dos.html"
         ></iframe>
       </SanityApp>
